@@ -44,13 +44,13 @@ View the full documentation at https://tailwindcss.com.
 */
 
 let colors = {
-  'mirage': '#1A252D',
-  'temptress': '#440000',
-  'cottonSeed': '#BCB8B3',
-  'stormDust': '#5e5e5d'
-  'white': '#ffffff',
-  'black': '#000000',
-  'transparent': 'transparent',
+  mirage: '#1A252D',
+  temptress: '#440000',
+  cottonSeed: '#BCB8B3',
+  stormDust: '#5e5e5d',
+  white: '#ffffff',
+  black: '#000000',
+  transparent: 'transparent',
 }
 
 module.exports = {
@@ -807,7 +807,7 @@ module.exports = {
     margin: ['responsive'],
     maxHeight: ['responsive'],
     maxWidth: ['responsive'],
-    minHeight: false,
+    minHeight: ['responsive'],
     minWidth: false,
     negativeMargin: false,
     opacity: ['responsive', 'hover'],
